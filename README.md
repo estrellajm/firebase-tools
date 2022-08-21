@@ -19,6 +19,12 @@ You can install the Firebase CLI using npm (the Node Package Manager). Note that
 To download and install the Firebase CLI run the following command:
 
 ```bash
+# Nodejs v16 & later
+npm install --location=global firebase-tools
+
+OR
+
+# Nodejs v14 & older
 npm install -g firebase-tools
 ```
 
